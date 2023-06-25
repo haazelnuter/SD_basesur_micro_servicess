@@ -1,0 +1,45 @@
+<div class="d-flex align-items-center" *ngIf="authService.hasRole('ADMIN')">
+  <h4><b>General Informations</b></h4>
+</div>
+ <div class="row justify-content-center">
+
+   <section class="cards align-items-center">
+     <article class="card card--1">
+       <div class="card__img"></div>
+       <a href="#" class="card_link">
+         <div class="card__img--hover"></div>
+       </a>
+       <div class="card__info">
+         <span class="card__category"> Infos</span>
+         <h3 class="card__title">Vehicles</h3>
+         <span class="card__by">{{vehicleCount}}</span>
+       </div>
+     </article>
+       <article class="card card--3">
+         <div class="card__img"></div>
+         <a href="#" class="card_link">
+           <div class="card__img--hover"></div>
+         </a>
+         <div class="card__info">
+           <span class="card__category"> Infos</span>
+           <h3 class="card__title">Infractions</h3>
+           <span class="card__by">{{infractionsCount}}</span>
+         </div>
+       </article>
+
+
+
+     <article class="card card--2">
+       <div class="card__img"></div>
+       <a href="#" class="card_link">
+         <div class="card__img--hover"></div>
+       </a>
+       <div class="card__info">
+         <span class="card__category"> Infos</span>
+         <h3 class="card__title">Radars</h3>
+         <span class="card__by">{{radarsCount}}</span>
+       </div>
+     </article>
+   </section>
+ </div>
+
