@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Architecture technique du projet:
+![Architecture technique (1)](https://github.com/haazelnuter/SD_basesur_micro_servicess/assets/96618018/e506a623-d7ff-429b-9888-b19b17f304f1)
+## Diagramme de classe global du projet:
+![diagram_class](https://github.com/haazelnuter/SD_basesur_micro_servicess/assets/96618018/977fb562-a0cb-43f3-92ce-d43137c73f20)
+
+
+
+
+
+
+
+
+
+
